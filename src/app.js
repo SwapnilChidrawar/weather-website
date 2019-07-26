@@ -21,14 +21,14 @@ app.use(express.static('public'));
 app.get('', (req, res) => {
     res.render('index', {
         title: 'Weather App',
-        name: 'Swapnil Chidrawar empty'
+        name: 'Swapnil Chidrawar'
     });
 });
 
 app.get('/about', (req, res) => {
     res.render('about', {
         title: 'About Me',
-        name: 'Swapnil Chidrawar About'
+        name: 'Swapnil Chidrawar'
     });
 });
 
